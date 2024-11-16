@@ -1,0 +1,1 @@
+Create a venv and install requirements.txt, follow the instructions here https://docs.cdp.coinbase.com/agentkit/docs/quickstart to get credentials to the APIs needed for my_bot.py, you can recreate the solana dataset using get solana meme training dataset .ipynb and retain the model using crypto_price_prediction.py, even though they work just like this.
