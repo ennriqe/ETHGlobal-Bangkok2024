@@ -1,0 +1,24 @@
+# Environment variables
+.env
+
+# Wallet data files
+wallet_data_*.txt
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env/
+ENV/
+virtualenv/
+.Python
+pyvenv.cfg
+.python-version
+bin/
+include/
+lib/
+lib64/
+share/
+Scripts/
+Lib/
+Include/

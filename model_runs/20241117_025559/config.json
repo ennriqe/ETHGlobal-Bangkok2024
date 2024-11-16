@@ -1,0 +1,570 @@
+{
+    "SEQUENCE_LENGTH": 30,
+    "NUM_COINS": 230,
+    "TRAIN_SPLIT": 0.9,
+    "BATCH_SIZE": 64,
+    "EPOCHS": 200,
+    "SELECTED_COINS": [
+        "McDull (Meme)",
+        "Banana Tape Wall",
+        "catownkimono",
+        "Myro",
+        "American Coin",
+        "Shoggoth",
+        "Aries",
+        "iiii lovvvv youuuu",
+        "Malakai",
+        "hehe",
+        "TEH EPIK DUCK",
+        "PONKE",
+        "COAL",
+        "The Ticker Is ETH",
+        "Manifest",
+        "Eagle of Truth",
+        "Bonk",
+        "Zack Morris",
+        "IQ50",
+        "Billy",
+        "analoS",
+        "Monkey Pox",
+        "the Soldog",
+        "Autonomous Virtual Beings",
+        "earl",
+        "Skibidi Toilet",
+        "MILKBAG",
+        "Guacamole",
+        "Bork",
+        "Moth",
+        "Tate Terminal",
+        "Solama",
+        "Bet more",
+        "Gemini",
+        "Fartcoin",
+        "Pochita",
+        "Zerebro",
+        "Market Dominance",
+        "Gooby",
+        "Hege",
+        "Dark MAGA",
+        "Believe In Something",
+        "LOAFCAT",
+        "Waffles",
+        "Sharbi",
+        "Comedian",
+        "NPC On Solana",
+        "TORSY",
+        "Uranus",
+        "LOL",
+        "mini",
+        "Hund",
+        "Rocky",
+        "LandWolf",
+        "Pisces",
+        "Harambe on Solana",
+        "RETARDIO",
+        "Mother Iggy",
+        "Milady Wif Hat",
+        "GUMMY",
+        "doginthpool",
+        "Gecko (Meme)",
+        "Top Hat",
+        "Gigachad",
+        "Literally Me",
+        "real.",
+        "VENKO",
+        "MEN",
+        "CLAPCAT",
+        "Meme Coin Millionaire",
+        "littlemanyu",
+        "President.exe",
+        "Alpha",
+        "Effective accelerationism",
+        "monkeyhaircut",
+        "Pepe Trump",
+        "LUCI",
+        "GMika",
+        "Slop",
+        "Wen",
+        "Pajamas Cat",
+        "Cancer",
+        "BOGUS",
+        "Cheems",
+        "CCTV",
+        "DOGE on Solana",
+        "MUMU THE BULL",
+        "Numogram",
+        "SAD HAMSTER",
+        "Doland Tremp",
+        "PONK",
+        "peanie",
+        "HAMI",
+        "DOGAI",
+        "Low Quality Cat",
+        "Pepe on SOL",
+        "Half Orange Drinking Lemonade",
+        "PSYOP",
+        "Bozo Benk",
+        "neversol",
+        "RIBBIT",
+        "Smilek",
+        "Scorpio",
+        "360noscope420blazeit",
+        "AI Crystal Node",
+        "Habibi (Sol)",
+        "Dasha",
+        "Libra",
+        "Pigeon Tech",
+        "Peng",
+        "We Love T",
+        "Keyboard Cat",
+        "INU",
+        "SelfieDogCoin",
+        "RNT",
+        "Leo",
+        "Cheese",
+        "POPDOG",
+        "Blinks.gg",
+        "Memes AI",
+        "RETARDIA",
+        "Sagittarius",
+        "Cat-Dog",
+        "BASED",
+        "r/snoofi",
+        "Brainlet",
+        "catwifbag",
+        "Aiwithdaddyissues",
+        "MoonScape",
+        "Capricorn",
+        "Shark Cat",
+        "Floos",
+        "PINO",
+        "Nailong",
+        "michi",
+        "Smiling Dolphin",
+        "Giko Cat",
+        "Soyjak",
+        "GME",
+        "Daddy Tate",
+        "Pundu",
+        "Crashout",
+        "Morud",
+        "Boba Oppa",
+        "Slothana",
+        "Sillynubcat",
+        "HeeeHeee",
+        "Cost Hot Dog",
+        "WHISKEY",
+        "Degen Spartan AI",
+        "LOCK IN",
+        "todd",
+        "DUKO",
+        "Pesto the Baby King Penguin",
+        "Sage Universe",
+        "Act I The AI Prophecy",
+        "Luce",
+        "DollarMoon",
+        "ORC",
+        "chaos and disorder",
+        "Success Kid",
+        "el gato",
+        "Doge Jones Industrial Average",
+        "Samoyedcoin",
+        "Harold",
+        "Catcoin",
+        "Anita Max Wynn",
+        "Sigma",
+        "MIMANY",
+        "Kitten Haimer",
+        "Honk",
+        "cat in a dogs world",
+        "coby",
+        "KOALA AI",
+        "Aquarius",
+        "BOOK OF MEME",
+        "FECES",
+        "Zoomer",
+        "Noooomeme",
+        "Ben the Dog",
+        "Send",
+        "Goatseus Maximus",
+        "aura",
+        "Omega",
+        "Tori the Cat",
+        "dogwifhat",
+        "Fwog",
+        "Doug the Duck",
+        "MANEKI",
+        "Dolan Duck",
+        "WATER Coin",
+        "Slerf",
+        "WAWA CAT",
+        "The RugCoon",
+        "supercycle(real)",
+        "autism",
+        "Sharki",
+        "FATGF",
+        "Dog Emoji On Solana",
+        "John the Coin",
+        "BitCat",
+        "EnKrypto",
+        "Wrapped DOG",
+        "SNAP",
+        "nomnom",
+        "Taurus",
+        "Toad (SOL)",
+        "Naked Jim",
+        "Cheeseball",
+        "Rawr",
+        "infinite backrooms",
+        "ADA",
+        "Dollar",
+        "Popcat",
+        "Neiro",
+        "Puffy",
+        "Look bro",
+        "Let Him Cook",
+        "Melon Dog",
+        "Jeo Boden",
+        "What\u2019s Updog?",
+        "Gotti Token",
+        "catwifhat",
+        "brainrot",
+        "Moo Deng",
+        "tooker kurlson"
+    ],
+    "architecture": {
+        "name": "sequential",
+        "trainable": true,
+        "dtype": {
+            "module": "keras",
+            "class_name": "DTypePolicy",
+            "config": {
+                "name": "float32"
+            },
+            "registered_name": null
+        },
+        "layers": [
+            {
+                "module": "keras.layers",
+                "class_name": "InputLayer",
+                "config": {
+                    "batch_shape": [
+                        null,
+                        30,
+                        5
+                    ],
+                    "dtype": "float32",
+                    "sparse": false,
+                    "name": "input_layer"
+                },
+                "registered_name": null
+            },
+            {
+                "module": "keras.layers",
+                "class_name": "LSTM",
+                "config": {
+                    "name": "lstm",
+                    "trainable": true,
+                    "dtype": {
+                        "module": "keras",
+                        "class_name": "DTypePolicy",
+                        "config": {
+                            "name": "float32"
+                        },
+                        "registered_name": null
+                    },
+                    "return_sequences": true,
+                    "return_state": false,
+                    "go_backwards": false,
+                    "stateful": false,
+                    "unroll": false,
+                    "zero_output_for_mask": false,
+                    "units": 128,
+                    "activation": "tanh",
+                    "recurrent_activation": "sigmoid",
+                    "use_bias": true,
+                    "kernel_initializer": {
+                        "module": "keras.initializers",
+                        "class_name": "GlorotUniform",
+                        "config": {
+                            "seed": null
+                        },
+                        "registered_name": null
+                    },
+                    "recurrent_initializer": {
+                        "module": "keras.initializers",
+                        "class_name": "OrthogonalInitializer",
+                        "config": {
+                            "seed": null,
+                            "gain": 1.0
+                        },
+                        "registered_name": null
+                    },
+                    "bias_initializer": {
+                        "module": "keras.initializers",
+                        "class_name": "Zeros",
+                        "config": {},
+                        "registered_name": null
+                    },
+                    "unit_forget_bias": true,
+                    "kernel_regularizer": null,
+                    "recurrent_regularizer": null,
+                    "bias_regularizer": null,
+                    "activity_regularizer": null,
+                    "kernel_constraint": null,
+                    "recurrent_constraint": null,
+                    "bias_constraint": null,
+                    "dropout": 0.0,
+                    "recurrent_dropout": 0.0,
+                    "seed": null
+                },
+                "registered_name": null,
+                "build_config": {
+                    "input_shape": [
+                        null,
+                        30,
+                        5
+                    ]
+                }
+            },
+            {
+                "module": "keras.layers",
+                "class_name": "Dropout",
+                "config": {
+                    "name": "dropout",
+                    "trainable": true,
+                    "dtype": {
+                        "module": "keras",
+                        "class_name": "DTypePolicy",
+                        "config": {
+                            "name": "float32"
+                        },
+                        "registered_name": null
+                    },
+                    "rate": 0.3,
+                    "seed": null,
+                    "noise_shape": null
+                },
+                "registered_name": null
+            },
+            {
+                "module": "keras.layers",
+                "class_name": "LSTM",
+                "config": {
+                    "name": "lstm_1",
+                    "trainable": true,
+                    "dtype": {
+                        "module": "keras",
+                        "class_name": "DTypePolicy",
+                        "config": {
+                            "name": "float32"
+                        },
+                        "registered_name": null
+                    },
+                    "return_sequences": false,
+                    "return_state": false,
+                    "go_backwards": false,
+                    "stateful": false,
+                    "unroll": false,
+                    "zero_output_for_mask": false,
+                    "units": 64,
+                    "activation": "tanh",
+                    "recurrent_activation": "sigmoid",
+                    "use_bias": true,
+                    "kernel_initializer": {
+                        "module": "keras.initializers",
+                        "class_name": "GlorotUniform",
+                        "config": {
+                            "seed": null
+                        },
+                        "registered_name": null
+                    },
+                    "recurrent_initializer": {
+                        "module": "keras.initializers",
+                        "class_name": "OrthogonalInitializer",
+                        "config": {
+                            "seed": null,
+                            "gain": 1.0
+                        },
+                        "registered_name": null
+                    },
+                    "bias_initializer": {
+                        "module": "keras.initializers",
+                        "class_name": "Zeros",
+                        "config": {},
+                        "registered_name": null
+                    },
+                    "unit_forget_bias": true,
+                    "kernel_regularizer": null,
+                    "recurrent_regularizer": null,
+                    "bias_regularizer": null,
+                    "activity_regularizer": null,
+                    "kernel_constraint": null,
+                    "recurrent_constraint": null,
+                    "bias_constraint": null,
+                    "dropout": 0.0,
+                    "recurrent_dropout": 0.0,
+                    "seed": null
+                },
+                "registered_name": null,
+                "build_config": {
+                    "input_shape": [
+                        null,
+                        30,
+                        128
+                    ]
+                }
+            },
+            {
+                "module": "keras.layers",
+                "class_name": "Dropout",
+                "config": {
+                    "name": "dropout_1",
+                    "trainable": true,
+                    "dtype": {
+                        "module": "keras",
+                        "class_name": "DTypePolicy",
+                        "config": {
+                            "name": "float32"
+                        },
+                        "registered_name": null
+                    },
+                    "rate": 0.3,
+                    "seed": null,
+                    "noise_shape": null
+                },
+                "registered_name": null
+            },
+            {
+                "module": "keras.layers",
+                "class_name": "Dense",
+                "config": {
+                    "name": "dense",
+                    "trainable": true,
+                    "dtype": {
+                        "module": "keras",
+                        "class_name": "DTypePolicy",
+                        "config": {
+                            "name": "float32"
+                        },
+                        "registered_name": null
+                    },
+                    "units": 32,
+                    "activation": "relu",
+                    "use_bias": true,
+                    "kernel_initializer": {
+                        "module": "keras.initializers",
+                        "class_name": "GlorotUniform",
+                        "config": {
+                            "seed": null
+                        },
+                        "registered_name": null
+                    },
+                    "bias_initializer": {
+                        "module": "keras.initializers",
+                        "class_name": "Zeros",
+                        "config": {},
+                        "registered_name": null
+                    },
+                    "kernel_regularizer": null,
+                    "bias_regularizer": null,
+                    "kernel_constraint": null,
+                    "bias_constraint": null
+                },
+                "registered_name": null,
+                "build_config": {
+                    "input_shape": [
+                        null,
+                        64
+                    ]
+                }
+            },
+            {
+                "module": "keras.layers",
+                "class_name": "Dropout",
+                "config": {
+                    "name": "dropout_2",
+                    "trainable": true,
+                    "dtype": {
+                        "module": "keras",
+                        "class_name": "DTypePolicy",
+                        "config": {
+                            "name": "float32"
+                        },
+                        "registered_name": null
+                    },
+                    "rate": 0.2,
+                    "seed": null,
+                    "noise_shape": null
+                },
+                "registered_name": null
+            },
+            {
+                "module": "keras.layers",
+                "class_name": "Dense",
+                "config": {
+                    "name": "dense_1",
+                    "trainable": true,
+                    "dtype": {
+                        "module": "keras",
+                        "class_name": "DTypePolicy",
+                        "config": {
+                            "name": "float32"
+                        },
+                        "registered_name": null
+                    },
+                    "units": 1,
+                    "activation": "linear",
+                    "use_bias": true,
+                    "kernel_initializer": {
+                        "module": "keras.initializers",
+                        "class_name": "GlorotUniform",
+                        "config": {
+                            "seed": null
+                        },
+                        "registered_name": null
+                    },
+                    "bias_initializer": {
+                        "module": "keras.initializers",
+                        "class_name": "Zeros",
+                        "config": {},
+                        "registered_name": null
+                    },
+                    "kernel_regularizer": null,
+                    "bias_regularizer": null,
+                    "kernel_constraint": null,
+                    "bias_constraint": null
+                },
+                "registered_name": null,
+                "build_config": {
+                    "input_shape": [
+                        null,
+                        32
+                    ]
+                }
+            }
+        ],
+        "build_input_shape": [
+            null,
+            30,
+            5
+        ]
+    },
+    "optimizer": {
+        "name": "adam",
+        "learning_rate": 0.0010000000474974513,
+        "weight_decay": null,
+        "clipnorm": null,
+        "global_clipnorm": null,
+        "clipvalue": null,
+        "use_ema": false,
+        "ema_momentum": 0.99,
+        "ema_overwrite_frequency": null,
+        "loss_scale_factor": null,
+        "gradient_accumulation_steps": null,
+        "beta_1": 0.9,
+        "beta_2": 0.999,
+        "epsilon": 1e-07,
+        "amsgrad": false
+    }
+}
