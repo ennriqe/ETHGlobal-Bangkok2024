@@ -6,6 +6,10 @@ Hackathon prototype combining crypto market data collection, a sequence-modeling
 
 - X demo post (Bangkok hackathon): https://x.com/BarruecoEnrique/status/1858012841523163469
 
+## Result
+
+- Participant project / demo (no prize)
+
 ## What Is In This Repo
 
 This repository contains two main tracks explored during the hackathon:
