@@ -2,6 +2,10 @@
 
 Hackathon prototype combining crypto market data collection, a sequence-modeling experiment, and an on-chain agent workflow (Coinbase AgentKit / CDP).
 
+## Demo
+
+- X demo post (Bangkok hackathon): https://x.com/BarruecoEnrique/status/1858012841523163469
+
 ## What Is In This Repo
 
 This repository contains two main tracks explored during the hackathon:

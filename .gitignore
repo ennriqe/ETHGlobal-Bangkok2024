@@ -1,8 +1,17 @@
+# macOS / editor junk
+.DS_Store
+*.swp
+*.swo
+
 # Environment variables
 .env
+.env.local
+.env.*.local
 
 # Wallet data files
 wallet_data_*.txt
+error.txt
+*.log
 
 # Virtual Environment
 venv/
@@ -22,3 +31,15 @@ share/
 Scripts/
 Lib/
 Include/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local tooling dirs
+.alpackages/
+.snapshots/

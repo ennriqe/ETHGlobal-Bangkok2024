@@ -24,14 +24,24 @@ GRAPH_SUBGRAPH_ID = os.getenv('GRAPH_SUBGRAPH_ID')
 CDP_API_KEY_NAME = os.getenv('CDP_API_KEY_NAME')
 CDP_API_KEY_PRIVATE_KEY = os.getenv('CDP_API_KEY_PRIVATE_KEY')
 
-# Check if keys are present
-if not all([OPENAI_API_KEY, GRAPH_API_KEY, GRAPH_SUBGRAPH_ID, CDP_API_KEY_NAME, CDP_API_KEY_PRIVATE_KEY]):
-    print("Warning: One or more required API keys not found in environment variables!")
-    print("Current environment variables:", dict(os.environ))
+# Check if keys are present (do not print the whole environment)
+required_keys = {
+    "OPENAI_API_KEY": OPENAI_API_KEY,
+    "GRAPH_API_KEY": GRAPH_API_KEY,
+    "GRAPH_SUBGRAPH_ID": GRAPH_SUBGRAPH_ID,
+    "CDP_API_KEY_NAME": CDP_API_KEY_NAME,
+    "CDP_API_KEY_PRIVATE_KEY": CDP_API_KEY_PRIVATE_KEY,
+}
+missing_keys = [k for k, v in required_keys.items() if not v]
+if missing_keys:
+    print("Warning: Missing required environment variables:", ", ".join(missing_keys))
 
 # Configure a file to persist the agent's CDP MPC Wallet Data.
-# wallet_data_file = f"wallet_data_{int(time.time())}_{os.urandom(4).hex()}.txt"
-wallet_data_file = "wallet_data_1731771477_72b8d0990.txt"
+# Use an env override when reusing a wallet file; otherwise generate a fresh local filename.
+wallet_data_file = os.getenv(
+    "CDP_WALLET_DATA_FILE",
+    f"wallet_data_{int(time.time())}_{os.urandom(4).hex()}.txt",
+)
 # Initialize CDP Agentkit wrapper
 
 
@@ -204,7 +214,11 @@ def get_RAG_query(intent):
 
 
     import openai
-    client = openai.OpenAI(api_key=OPENAI_API_KEY, organization = "org-38tcB2xwAMriGXlXET77TRAu")
+    openai_org = os.getenv("OPENAI_ORG_ID")
+    client_kwargs = {"api_key": OPENAI_API_KEY}
+    if openai_org:
+        client_kwargs["organization"] = openai_org
+    client = openai.OpenAI(**client_kwargs)
     response_format={"type": "text"}
 
     final_dict = {}
